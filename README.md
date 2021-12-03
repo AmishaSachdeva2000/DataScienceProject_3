@@ -1,9 +1,8 @@
 # weather-analytics
 
-This repo is the code for [this climate analysis dashboard](https://share.streamlit.io/dansbecker/weather-analytics/main). It's a quick-and-dirty project to satisfy personal curiosity, so it isn't well documented. If you find it interesting, drop me a note, issue or PR and I'll be thrilled to connect.
-
+This repo is the code for [this climate analysis dashboard]( https://share.streamlit.io/amishasachdeva2000/datascienceproject_3) . 
 It's based on this raw [daily weather data](https://docs.opendata.aws/noaa-ghcn-pds/readme.html).
-
-It starts with ~100GB of data, so the first level of munging happened in `/sagemaker_notebooks` notebooks.
-
-The`download_data.sh` script downloads output of those notebooks, which is then the basis for the Streamlit app.
+Weather App :This project lets you see the climate impacts so far. For each city, you can see changes in
+Daily high temperatures
+Daily low temperatures
+Total precipitation
